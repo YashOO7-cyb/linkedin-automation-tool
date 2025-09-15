@@ -17,7 +17,7 @@ function App() {
 
     try {
       const res = await axios.post(
-        "https://your-backend.onrender.com/create-scheduled-post",
+        "https://linkedin-automation-tool.onrender.com/create-scheduled-post",
         form
       );
       alert("Scheduled: " + JSON.stringify(res.data));
